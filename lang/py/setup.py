@@ -29,8 +29,8 @@ setup(
   name = 'avro',
   version = '@AVRO_VERSION@',
   packages = ['avro',],
-  package_dir = {'avro': 'src/avro'},
-  scripts = ["./scripts/avro"],
+  package_dir = {'': 'lang/py/src'},
+  scripts = ["lang/py/scripts/avro"],
 
   # Project uses simplejson, so ensure that it gets installed or upgraded
   # on the target machine
